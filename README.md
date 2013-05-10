@@ -1,27 +1,32 @@
-GrblMainboard
+XStepper
 =============
 
-A new Solution with Grbl Firmware to use cnc mills or 3d printers
+A new Solution with Grbl Firmware to use cnc mills or 3d printers.
 
-created by Christoph Kielhorn (Godsplan), Jan-Erik Zimmermann and xpix
+created by Frank Herrmann (xpix), Godsplan
 
 ---------------
 
-The GrblMainboard includes the following features:
+The XStepper includes the following features:
 
 - ATMega328u (DIL Package)
-- USB Connection using cheap USB-FTDI-Breakouts from Ebay
+- USB Connection using USB-FTDI
 - Opto-Couplers for USB Connection
 - ICSP-Connector for flashing the firmware
 - GRBL Firmware (v0.8) and GRBL Pinout
-- External Buttons for spindle, reset, etc...
+- Connector for External Buttons for spindle, reset, etc...
 - Support for four Pololu A4988 or Pololu DRV8825 Modules
 - Supports dual-Y motion
 - Supports cooling fan
+- Supports XYZ-Limit in extra pinheader
+- LED's for every axis
+- LED's for every Limit
+- Power LED
+- AK500 Screw terminal for Steppers
 
 ---------------
 
-v2.1 
+v0.9 
 
 - created schema files
 - created .brd
