@@ -23,6 +23,8 @@ The XStepper includes the following features:
 - LED's for every Limit
 - Power LED
 - AK500 Screw terminal for Steppers
+- Connector for Bluetooth TTL Modules
+
 
 ---------------
 
