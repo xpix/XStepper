@@ -27,6 +27,9 @@ The XStepper includes the following features:
 
 
 ---------------
+v0.9.1
+
+- add pullup resistors for Hallo Sesnor switches (Cherry MP101401)
 
 v0.9 
 
