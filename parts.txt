@@ -1,0 +1,82 @@
+Partlist
+
+Exported from XStepper.sch at 11.07.2013 17:57:24
+
+EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part           Value              Device             Package            Library        Sheet
+
+328P           CONTROLLER         MEGA8-P            DIL28-3            Bibsatmel      1
+A-AXIS                            PINHD-2X3          2X03               pinhead        1
+ALED                              LED3MM             LED3MM             led            1
+AMOT                              AK500/4            AK500/4            con-ptr500     1
+BT-TTL                            PINHD-1X4          1X04               pinhead        1
+C1             0.1uF              C-EU025-025X050    C025-025X050       resistor       1
+C2             47uF               CPOL-USE2.5-6      E2,5-6             resistor       1
+C3             0.1uF              C-EU025-025X050    C025-025X050       resistor       1
+C4             0.1uF              C-EU025-025X050    C025-025X050       resistor       1
+C5             47uF               CPOL-USE2.5-6      E2,5-6             resistor       1
+C6             0.1uF              C-EU025-025X050    C025-025X050       resistor       1
+C7             47uF               CPOL-USE2.5-6      E2,5-6             resistor       1
+C8             47uF               CPOL-USE2.5-6      E2,5-6             resistor       1
+C9             47uF               CPOL-USE2.5-6      E2,5-6             resistor       1
+C10            47uF               CPOL-USE2.5-6      E2,5-6             resistor       1
+C11            18pF               C-EU025-025X050    C025-025X050       resistor       1
+C12            18pF               C-EU025-025X050    C025-025X050       resistor       1
+C13            0.1uF              C-EU025-025X050    C025-025X050       resistor       1
+C14            0.1uF              C-EU025-025X050    C025-025X050       resistor       1
+C15            0.1uF              C-EU025-025X050    C025-025X050       resistor       1
+CONN1                             ML16               ML16               con-ml         1
+DUALY                             PINHD-2X2          2X02               pinhead        1
+FAN                               AK500/2            AK500/2            con-ptr500     1
+H5             MOUNT-PAD-ROUND3.6 MOUNT-PAD-ROUND3.6 3,6-PAD            holes          1
+H6             MOUNT-PAD-ROUND3.6 MOUNT-PAD-ROUND3.6 3,6-PAD            holes          1
+H7             MOUNT-PAD-ROUND3.6 MOUNT-PAD-ROUND3.6 3,6-PAD            holes          1
+H8             MOUNT-PAD-ROUND3.6 MOUNT-PAD-ROUND3.6 3,6-PAD            holes          1
+IC1             LM7805            V_REG_78XX         78XXL-CUSTOM       SparkFun       1
+ICSP                              PINHD-2X3          2X03               pinhead        1
+OK1            6N137              6N137              DIL08              optocoupler    1
+OK2            6N137              6N137              DIL08              optocoupler    1
+PWR                               AK500/2            AK500/2            con-ptr500     1
+PWRLED1                           LED3MM             LED3MM             led            1
+Q2             16 MHZ             CRYSTALHC49S       HC49/S             crystal        1
+R1             10k                R-EU_0204/5        0204/5             resistor       1
+R2             470                R-EU_0204/5        0204/5             resistor       1
+R3             470                R-EU_0204/5        0204/5             resistor       1
+R4             470                R-EU_0204/5        0204/5             resistor       1
+R5             470                R-EU_0204/2V       0204V              resistor       1
+R6             10k                R-EU_0204/5        0204/5             resistor       1
+R7             470                R-EU_0204/5        0204/5             resistor       1
+R8             470                R-EU_0204/2V       0204V              resistor       1
+R9             470                R-EU_0204/2V       0204V              resistor       1
+R10            470                R-EU_0204/2V       0204V              resistor       1
+R11            470                R-EU_0204/2V       0204V              resistor       1
+R12            470                R-EU_0204/2V       0204V              resistor       1
+R13            1k                 R-EU_0204/2V       0204V              resistor       1
+R14            470                R-EU_0204/2V       0204V              resistor       1
+R15            1k                 R-EU_0204/2V       0204V              resistor       1
+R16            1k                 R-EU_0204/2V       0204V              resistor       1
+R17            1k                 R-EU_0204/2V       0204V              resistor       1
+RESET          RESET              TAC_SWITCHPTH      TACTILE-PTH        SparkFun       1
+STEPPERDRIVER  POLOLU-A4988       POLOLU-ALLEGRO     POLOLU-ALLEGRO-PTH pololu-allegro 1
+STEPPERDRIVER1 POLOLU-A4988       POLOLU-ALLEGRO     POLOLU-ALLEGRO-PTH pololu-allegro 1
+STEPPERDRIVER2 POLOLU-A4988       POLOLU-ALLEGRO     POLOLU-ALLEGRO-PTH pololu-allegro 1
+STEPPERDRIVER3 POLOLU-A4988       POLOLU-ALLEGRO     POLOLU-ALLEGRO-PTH pololu-allegro 1
+TTL            GND                PINHD-1X6          1X06               pinhead        1
+X-AXIS                            PINHD-2X3          2X03               pinhead        1
+XLED                              LED3MM             LED3MM             led            1
+XLIMIT                            PINHD-1X3          1X03               pinhead        1
+XMOT                              AK500/4            AK500/4            con-ptr500     1
+XSTLED                            LED3MM             LED3MM             led            1
+Y-AXIS                            PINHD-2X3          2X03               pinhead        1
+YLED                              LED3MM             LED3MM             led            1
+YLIMIT                            PINHD-1X3          1X03               pinhead        1
+YMOT                              AK500/4            AK500/4            con-ptr500     1
+YSTLED                            LED3MM             LED3MM             led            1
+Z-AXIS                            PINHD-2X3          2X03               pinhead        1
+ZLED                              LED3MM             LED3MM             led            1
+ZLIMIT                            PINHD-1X3          1X03               pinhead        1
+ZMOT                              AK500/4            AK500/4            con-ptr500     1
+ZSTLED                            LED3MM             LED3MM             led            1
