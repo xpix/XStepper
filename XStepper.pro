@@ -1,15 +1,15 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/xpix/Dropbox/GitHub/XStepper/XStepper.brd
+Job           : C:/Users/c5125630/Dropbox/GitHub/XStepper/XStepper.brd
 
-Start at      : 17:49:46 (11.07.2013)
-End at        : 17:49:46 (11.07.2013)
+Start at      : 09:54:36 (30.07.2013)
+End at        : 09:54:37 (30.07.2013)
 Elapsed time  : 00:00:00
 
-Signals       :    74   RoutingGrid: 50 mil  Layers: 2
-Connections   :   211   predefined:  211 ( 28 Vias )
+Signals       :    80   RoutingGrid: 50 mil  Layers: 2
+Connections   :   215   predefined:  215 ( 7 Vias )
 
-Router memory :   25056
+Router memory :   24708
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
