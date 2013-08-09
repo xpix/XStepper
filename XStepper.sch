@@ -14528,8 +14528,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.4064" drill="0">
-<clearance class="0" value="0.254"/>
+<class number="0" name="default" width="0.3048" drill="0">
+<clearance class="0" value="0.2032"/>
 </class>
 <class number="1" name="power" width="1.016" drill="0">
 <clearance class="1" value="0.3048"/>
@@ -14661,12 +14661,12 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
 <part name="&lt;ESTOP" library="con-ptr500" deviceset="AK500/2" device=""/>
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
 <part name="COMMSEL" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="GND" library="jumper" deviceset="JP1E" device=""/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
+<part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -14898,13 +14898,13 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="R12" gate="G$1" x="325.12" y="165.1" rot="R270"/>
 <instance part="R13" gate="G$1" x="332.74" y="165.1" rot="R270"/>
 <instance part="R14" gate="G$1" x="340.36" y="165.1" rot="R270"/>
-<instance part="D1" gate="G$1" x="236.22" y="165.1" rot="R180"/>
 <instance part="&lt;ESTOP" gate="-1" x="15.24" y="0"/>
 <instance part="&lt;ESTOP" gate="-2" x="15.24" y="-7.62"/>
 <instance part="GND39" gate="1" x="25.4" y="-12.7"/>
 <instance part="COMMSEL" gate="A" x="104.14" y="165.1"/>
 <instance part="GND" gate="A" x="22.86" y="121.92" rot="R90"/>
 <instance part="GND21" gate="1" x="30.48" y="124.46" rot="R90"/>
+<instance part="D2" gate="G$1" x="236.22" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -15512,10 +15512,10 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="50.8" y1="160.02" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="U$16" gate="G$1" pin="5V"/>
 <wire x1="233.68" y1="165.1" x2="231.14" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="165.1" x2="231.14" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -16120,7 +16120,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="294.64" y1="-5.08" x2="299.72" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PWRMOT" class="0">
+<net name="PWRMOT" class="1">
 <segment>
 <pinref part="MOT" gate="-1" pin="KL"/>
 <wire x1="160.02" y1="121.92" x2="162.56" y2="121.92" width="0.1524" layer="91"/>
@@ -16219,8 +16219,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <net name="N$45" class="0">
 <segment>
 <pinref part="CONN1" gate="1" pin="16"/>
-<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="251.46" y1="165.1" x2="238.76" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="C"/>
 </segment>
 </net>
 <net name="BTTXD" class="0">
@@ -16375,7 +16375,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <approved hash="115,1,128.228,-11.2988,Y-AXIS,,,,,"/>
 <approved hash="115,1,232.368,54.7412,Z-AXIS,,,,,"/>
 <approved hash="115,1,232.368,-11.2988,A-AXIS,,,,,"/>
-<approved hash="115,1,85.0477,1.40123,ICSP,,,,,"/>
 <approved hash="115,1,166.37,91.7617,XLED,,,,,"/>
 <approved hash="115,1,267.97,91.7617,ZLED,,,,,"/>
 <approved hash="115,1,161.29,23.1817,YLED,,,,,"/>
@@ -16390,7 +16389,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <approved hash="115,1,325.442,156.21,XSTLED,,,,,"/>
 <approved hash="115,1,333.062,156.21,YSTLED,,,,,"/>
 <approved hash="115,1,340.682,156.21,ZSTLED,,,,,"/>
-<approved hash="115,1,151.429,121.92,PWR-MOT,,,,,"/>
 <approved hash="117,1,25.4,82.55,RESET,,,,,"/>
 </errors>
 </schematic>
