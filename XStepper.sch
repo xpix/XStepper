@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14528,7 +14528,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.3048" drill="0">
+<class number="0" name="default" width="0.2032" drill="0">
 <clearance class="0" value="0.2032"/>
 </class>
 <class number="1" name="power" width="1.016" drill="0">
@@ -14647,21 +14647,21 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="C2" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="100uF"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="IC1" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="SINK"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="330"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="470"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="470"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="470"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="470"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
-<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
-<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
-<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3"/>
-<part name="&lt;ESTOP" library="con-ptr500" deviceset="AK500/2" device=""/>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="110"/>
+<part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="110"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="110"/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="110"/>
+<part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="220"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="220"/>
+<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="220"/>
+<part name="ESTOP&gt;" library="con-ptr500" deviceset="AK500/2" device=""/>
 <part name="GND39" library="SparkFun" deviceset="GND" device=""/>
 <part name="COMMSEL" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="GND" library="jumper" deviceset="JP1E" device=""/>
@@ -14898,8 +14898,8 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <instance part="R12" gate="G$1" x="325.12" y="165.1" rot="R270"/>
 <instance part="R13" gate="G$1" x="332.74" y="165.1" rot="R270"/>
 <instance part="R14" gate="G$1" x="340.36" y="165.1" rot="R270"/>
-<instance part="&lt;ESTOP" gate="-1" x="15.24" y="0"/>
-<instance part="&lt;ESTOP" gate="-2" x="15.24" y="-7.62"/>
+<instance part="ESTOP&gt;" gate="-1" x="15.24" y="0"/>
+<instance part="ESTOP&gt;" gate="-2" x="15.24" y="-7.62"/>
 <instance part="GND39" gate="1" x="25.4" y="-12.7"/>
 <instance part="COMMSEL" gate="A" x="104.14" y="165.1"/>
 <instance part="GND" gate="A" x="22.86" y="121.92" rot="R90"/>
@@ -15165,7 +15165,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="C2" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<pinref part="&lt;ESTOP" gate="-2" pin="KL"/>
+<pinref part="ESTOP&gt;" gate="-2" pin="KL"/>
 <wire x1="20.32" y1="-7.62" x2="25.4" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-7.62" x2="25.4" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
@@ -15949,7 +15949,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <label x="63.5" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="&lt;ESTOP" gate="-1" pin="KL"/>
+<pinref part="ESTOP&gt;" gate="-1" pin="KL"/>
 <wire x1="20.32" y1="0" x2="25.4" y2="0" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="0" x2="30.48" y2="0" width="0.1524" layer="91"/>
 <label x="20.32" y="0" size="1.778" layer="95"/>
@@ -16375,6 +16375,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <approved hash="115,1,128.228,-11.2988,Y-AXIS,,,,,"/>
 <approved hash="115,1,232.368,54.7412,Z-AXIS,,,,,"/>
 <approved hash="115,1,232.368,-11.2988,A-AXIS,,,,,"/>
+<approved hash="115,1,88.9,-1.46473,ICSP,,,,,"/>
 <approved hash="115,1,166.37,91.7617,XLED,,,,,"/>
 <approved hash="115,1,267.97,91.7617,ZLED,,,,,"/>
 <approved hash="115,1,161.29,23.1817,YLED,,,,,"/>
@@ -16384,11 +16385,31 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <approved hash="115,1,310.776,55.88,ZMOT,,,,,"/>
 <approved hash="115,1,201.628,-10.16,YMOT,,,,,"/>
 <approved hash="115,1,305.768,-10.16,AMOT,,,,,"/>
+<approved hash="115,1,66.5743,-42.8583,PWRLED1,,,,,"/>
+<approved hash="115,1,305.037,174.121,XLIM,,,,,"/>
+<approved hash="115,1,305.037,158.881,YLIM,,,,,"/>
+<approved hash="115,1,305.037,143.641,ZLIM,,,,,"/>
 <approved hash="115,1,160.182,160.02,FAN,,,,,"/>
 <approved hash="115,1,124.126,121.92,PWR,,,,,"/>
 <approved hash="115,1,325.442,156.21,XSTLED,,,,,"/>
 <approved hash="115,1,333.062,156.21,YSTLED,,,,,"/>
 <approved hash="115,1,340.682,156.21,ZSTLED,,,,,"/>
+<approved hash="115,1,50.3702,162.429,BT-TTL,,,,,"/>
+<approved hash="115,1,154.82,121.92,MOT,,,,,"/>
+<approved hash="115,1,258.784,120.781,JP1,,,,,"/>
+<approved hash="115,1,190.5,119.863,IC1,,,,,"/>
+<approved hash="115,1,58.42,-42.1852,R3,,,,,"/>
+<approved hash="115,1,157.48,90.4452,R4,,,,,"/>
+<approved hash="115,1,152.4,21.8652,R5,,,,,"/>
+<approved hash="115,1,259.08,90.4452,R6,,,,,"/>
+<approved hash="115,1,256.54,21.8652,R7,,,,,"/>
+<approved hash="115,1,326.115,165.1,R12,,,,,"/>
+<approved hash="115,1,333.735,165.1,R13,,,,,"/>
+<approved hash="115,1,341.355,165.1,R14,,,,,"/>
+<approved hash="115,1,12.8444,0,ESTOP&gt;,,,,,"/>
+<approved hash="115,1,105.368,166.501,COMMSEL,,,,,"/>
+<approved hash="115,1,23.1632,122.309,GND,,,,,"/>
+<approved hash="115,1,236.22,165.587,D2,,,,,"/>
 <approved hash="117,1,25.4,82.55,RESET,,,,,"/>
 </errors>
 </schematic>
