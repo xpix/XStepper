@@ -1592,6 +1592,25 @@ grid 2.5 mm, outline 2.5 x 5 mm</description>
 <text x="-2.286" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.286" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="E3,5-8">
+<description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
+grid 3.5 mm, diameter 8 mm</description>
+<wire x1="-3.429" y1="1.143" x2="-2.667" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-3.048" y1="0.762" x2="-3.048" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="-1.27" x2="-0.254" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="-1.27" x2="-0.254" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="1.27" x2="-0.762" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="0" width="0.1524" layer="51"/>
+<wire x1="0.635" y1="0" x2="1.651" y2="0" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.064" width="0.1524" layer="21"/>
+<pad name="-" x="1.778" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
+<pad name="+" x="-1.778" y="0" drill="0.8128" diameter="1.6002"/>
+<text x="3.302" y="2.794" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.286" y="-3.048" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="0.254" y1="-1.27" x2="0.762" y2="1.27" layer="51"/>
+</package>
 <package name="E2,5-6">
 <description>&lt;b&gt;ELECTROLYTIC CAPACITOR&lt;/b&gt;&lt;p&gt;
 grid 2.54 mm, diameter 6 mm</description>
@@ -2407,25 +2426,25 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="42.4763" y="56.5" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="29.6663" y="39.555" size="1.27" layer="27"/>
 </element>
-<element name="C4" library="resistor" package="E2,5-6" value="100uF" x="30.9763" y="68.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="28.4763" y="71" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="33.6433" y="71.167" size="1.27" layer="27" ratio="10" rot="R90"/>
+<element name="C4" library="resistor" package="E3,5-8" value="100uF" x="32.8813" y="68.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.3813" y="71" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="35.5483" y="71.167" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="STEPPERDRIVER2" library="pololu-allegro" package="POLOLU-ALLEGRO-PTH" value="POLOLU-A4988" x="60.4763" y="56" smashed="yes" rot="R90"/>
 <element name="Z-AXIS" library="pinhead" package="2X03" value="" x="54.4763" y="44" smashed="yes">
 <attribute name="NAME" x="63.4763" y="56.5" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="50.6663" y="39.555" size="1.27" layer="27"/>
 </element>
-<element name="C6" library="resistor" package="E2,5-6" value="100uF" x="51.9763" y="68.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="53.7543" y="65.452" size="1.27" layer="27" ratio="10" rot="R180"/>
+<element name="C6" library="resistor" package="E3,5-8" value="100uF" x="53.8813" y="68.5" smashed="yes" rot="R90">
+<attribute name="VALUE" x="55.6593" y="65.452" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="STEPPERDRIVER3" library="pololu-allegro" package="POLOLU-ALLEGRO-PTH" value="POLOLU-A4988" x="81.4762" y="56" smashed="yes" rot="R90"/>
 <element name="A-AXIS" library="pinhead" package="2X03" value="" x="75.4762" y="44" smashed="yes">
 <attribute name="NAME" x="84.4762" y="56.5" size="1.27" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="71.6662" y="39.555" size="1.27" layer="27"/>
 </element>
-<element name="C8" library="resistor" package="E2,5-6" value="100uF" x="72.9762" y="68.5" smashed="yes" rot="R90">
-<attribute name="VALUE" x="69.9282" y="66.087" size="1.27" layer="27" ratio="10" rot="R90"/>
+<element name="C8" library="resistor" package="E3,5-8" value="100uF" x="74.8812" y="68.5" smashed="yes" rot="R90">
+<attribute name="VALUE" x="71.8332" y="66.087" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C9" library="resistor" package="E2,5-6" value="200uF" x="19.05" y="19.05" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.574" y="24.003" size="1.016" layer="25" font="vector" ratio="10" rot="R270"/>
@@ -2520,7 +2539,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="" x="60.4763" y="76.635" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="60.4763" y="76.635" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="60.4763" y="76.635" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="63.9763" y="66.635" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="65.2463" y="66.635" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="70.5601" y="82.35" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="YMOT" library="con-ptr500" package="AK500/4" value="" x="39.4763" y="76.635" smashed="yes" rot="R180">
@@ -2528,7 +2547,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="" x="39.4763" y="76.635" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="39.4763" y="76.635" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="39.4763" y="76.635" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="42.9763" y="66.635" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
+<attribute name="NAME" x="43.6113" y="66.635" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="49.5601" y="82.35" size="1.778" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="AMOT" library="con-ptr500" package="AK500/4" value="" x="81.4762" y="76.635" smashed="yes" rot="R180">
@@ -2612,7 +2631,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="89.1985" y="68.421" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="91.7385" y="68.294" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="C2" library="resistor" package="E2,5-6" value="100uF" x="9.9763" y="68.5" smashed="yes" rot="R90">
+<element name="C2" library="resistor" package="E3,5-8" value="100uF" x="9.9763" y="68.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.4763" y="71" size="1.016" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="12.6433" y="71.167" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
@@ -3044,9 +3063,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="45.8" y1="62.3" x2="45.8263" y2="62.35" width="0.2032" layer="16"/>
 <wire x1="68.3" y1="65.6" x2="67.2" y2="65.6" width="0.2032" layer="1"/>
 <wire x1="71.2" y1="68.5" x2="68.3" y2="65.6" width="0.2032" layer="1"/>
-<wire x1="73.5" y1="68.5" x2="71.2" y2="68.5" width="0.2032" layer="1"/>
-<wire x1="76.3" y1="65.7" x2="73.5" y2="68.5" width="0.2032" layer="1"/>
-<wire x1="76.3" y1="52.07" x2="76.3" y2="65.7" width="0.2032" layer="1"/>
+<wire x1="75.405" y1="68.5" x2="71.2" y2="68.5" width="0.2032" layer="1"/>
+<wire x1="76.3" y1="67.605" x2="75.405" y2="68.5" width="0.2032" layer="1"/>
+<wire x1="76.3" y1="52.07" x2="76.3" y2="67.605" width="0.2032" layer="1"/>
 <wire x1="67.2" y1="65.6" x2="67.1825" y2="65.5" width="0.2032" layer="1"/>
 <wire x1="87.9" y1="52.07" x2="87.9" y2="62.3" width="0.2032" layer="1"/>
 <wire x1="87.9" y1="62.3" x2="87.8262" y2="62.35" width="0.2032" layer="1"/>
@@ -3725,22 +3744,22 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="STEPPERDRIVER3" pad="VMOT"/>
 <contactref element="C8" pad="+"/>
 <contactref element="C2" pad="+"/>
-<wire x1="72.6" y1="66.9" x2="72.6" y2="62.4" width="1.016" layer="1"/>
-<wire x1="72.9" y1="67.2" x2="72.6" y2="66.9" width="1.016" layer="1"/>
+<wire x1="72.6" y1="64.36" x2="72.6" y2="62.4" width="1.016" layer="1"/>
+<wire x1="72.9" y1="64.66" x2="72.6" y2="64.36" width="1.016" layer="1"/>
 <wire x1="72.6" y1="62.4" x2="72.5862" y2="62.35" width="1.016" layer="1"/>
-<wire x1="72.9" y1="67.2" x2="72.9762" y2="67.23" width="1.016" layer="1"/>
-<wire x1="51.6" y1="66.9" x2="51.6" y2="62.4" width="1.016" layer="1"/>
-<wire x1="51.9" y1="67.2" x2="51.6" y2="66.9" width="1.016" layer="1"/>
+<wire x1="72.9" y1="64.66" x2="74.8812" y2="66.722" width="1.016" layer="1"/>
+<wire x1="51.6" y1="64.36" x2="51.6" y2="62.4" width="1.016" layer="1"/>
+<wire x1="51.9" y1="64.66" x2="51.6" y2="64.36" width="1.016" layer="1"/>
 <wire x1="51.6" y1="62.4" x2="51.5863" y2="62.35" width="1.016" layer="1"/>
-<wire x1="51.9" y1="67.2" x2="51.9763" y2="67.23" width="1.016" layer="1"/>
-<wire x1="30.6" y1="66.9" x2="30.6" y2="62.4" width="1.016" layer="1"/>
-<wire x1="30.9" y1="67.2" x2="30.6" y2="66.9" width="1.016" layer="1"/>
+<wire x1="51.9" y1="64.66" x2="53.8813" y2="66.722" width="1.016" layer="1"/>
+<wire x1="30.6" y1="64.36" x2="30.6" y2="62.4" width="1.016" layer="1"/>
+<wire x1="30.9" y1="64.66" x2="30.6" y2="64.36" width="1.016" layer="1"/>
 <wire x1="30.6" y1="62.4" x2="30.5863" y2="62.35" width="1.016" layer="1"/>
-<wire x1="30.9" y1="67.2" x2="30.9763" y2="67.23" width="1.016" layer="1"/>
+<wire x1="30.9" y1="64.66" x2="32.8813" y2="66.722" width="1.016" layer="1"/>
 <wire x1="9.6" y1="66.9" x2="9.6" y2="62.4" width="1.016" layer="1"/>
 <wire x1="9.9" y1="67.2" x2="9.6" y2="66.9" width="1.016" layer="1"/>
 <wire x1="9.6" y1="62.4" x2="9.5863" y2="62.35" width="1.016" layer="1"/>
-<wire x1="9.9" y1="67.2" x2="9.9763" y2="67.23" width="1.016" layer="1"/>
+<wire x1="9.9" y1="67.2" x2="9.9763" y2="66.722" width="1.016" layer="1"/>
 <wire x1="3.2" y1="55.7" x2="3.2" y2="36.9" width="1.016" layer="1"/>
 <wire x1="9.4" y1="61.9" x2="6.045" y2="58.545" width="1.016" layer="1"/>
 <wire x1="6.045" y1="58.545" x2="3.2" y2="55.7" width="1.016" layer="1"/>
@@ -3912,25 +3931,6 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="3.2" y1="16.4" x2="3.175" y2="16.4846" width="1.016" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="3,16,042c624663790513"/>
-<approved hash="3,1,7dbfd915d9d57d7f"/>
-<approved hash="3,1,831b483bd1fb4e22"/>
-<approved hash="3,1,439585ff8416427c"/>
-<approved hash="3,1,3e4d482440d822bc"/>
-<approved hash="3,1,0ed0353a37120cf8"/>
-<approved hash="3,1,3ed0a8fb28d43af9"/>
-<approved hash="3,1,391112fb11d23a38"/>
-<approved hash="3,1,7313b370c92b1e32"/>
-<approved hash="3,1,324709a6368945db"/>
-<approved hash="3,1,dd4286ebd8e3c0f1"/>
-<approved hash="3,1,7ac14a2b4a617a8b"/>
-<approved hash="3,1,fd5693819314f9eb"/>
-<approved hash="3,1,ff4c0ca60d69fe83"/>
-<approved hash="3,1,8a990cb7ee1274c9"/>
-<approved hash="3,1,9d59def3df909c3a"/>
-<approved hash="3,1,386edc04dc593833"/>
-</errors>
 </board>
 </drawing>
 <compatibility>

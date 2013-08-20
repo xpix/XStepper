@@ -14796,13 +14796,13 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="Y-AXIS" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="100uF"/>
+<part name="C4" library="resistor" deviceset="CPOL-US" device="E3.5-8" value="100uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="STEPPERDRIVER2" library="pololu-allegro" deviceset="POLOLU-ALLEGRO" device="" value="POLOLU-A4988"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="Z-AXIS" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="100uF"/>
+<part name="C6" library="resistor" deviceset="CPOL-US" device="E3.5-8" value="100uF"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="U$26" library="SparkFun" deviceset="5V" device=""/>
 <part name="U$27" library="12v" deviceset="12V" device=""/>
@@ -14818,7 +14818,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="A-AXIS" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="C8" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="100uF"/>
+<part name="C8" library="resistor" deviceset="CPOL-US" device="E3.5-8" value="100uF"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="SparkFun" deviceset="5V" device=""/>
 <part name="C9" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="200uF"/>
@@ -14891,7 +14891,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="C3" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1uF"/>
 <part name="C5" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1uF"/>
 <part name="C7" library="resistor" deviceset="C-EU" device="025-025X050" value="0.1uF"/>
-<part name="C2" library="resistor" deviceset="CPOL-US" device="E2.5-6" value="100uF"/>
+<part name="C2" library="resistor" deviceset="CPOL-US" device="E3.5-8" value="100uF"/>
 <part name="JP1" library="pinhead" deviceset="PINHD-2X3" device=""/>
 <part name="IC1" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="SINK"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/6W" value="330"/>
